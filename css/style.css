@@ -493,7 +493,7 @@ button:disabled {
   grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
   gap: var(--column-gap);
 
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 .img-cover {
@@ -1073,7 +1073,9 @@ button:disabled {
   #CURATED PHOTOS & POPULAR VIDEO
 \*-----------------------------------*/
 
-
+:where(.featured-photo, .popular-videos) .column {
+  margin-block-end: -800px;
+}
 
 
 
