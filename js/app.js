@@ -53,6 +53,6 @@ client.videos.popular({ per_page: 20 }, data => {
 
     updateGrid($videoCard, videoGrid.columnsHeight, videoGrid.$columns);
 
-  })
+  });
 
 });
