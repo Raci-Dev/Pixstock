@@ -21,8 +21,6 @@ export const collectionCard = collection => {
 
   const /** {String} */ root = window.location.origin;
 
-  console.log(collection);
-
   const {
     id,
     title,
